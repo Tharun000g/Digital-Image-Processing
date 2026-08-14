@@ -1,21 +1,21 @@
 
-import matplotlib.pyplot as plt
+import cv2
 import numpy as np
 
-# Read the image
-image = plt.imread("lab-1/images/color.jpg")
-print(image.shape)
+image = cv2.imread("lab-1/images/color.jpg")
 
-# Get the RGB channels
-R = image[:, :, 0]
+B = image[:, :, 0]
 G = image[:, :, 1]
-B = image[:, :, 2]
+R = image[:, :, 2]
 
-# Use only the Red channel
-gray = R
+gray = 0.299 * R + 0.587 * G + 0.114 * B
 
-# Display the grayscale image
-plt.imshow(gray, cmap="gray")
-plt.imsave("lab-1/images/grey.jpg", gray, cmap="gray")
-plt.axis("off")
-plt.show()
+gray = gray.astype(np.uint8)
+
+cv2.imshow("Original", image)
+cv2.imshow("Grayscale", gray)
+
+cv2.imwrite("lab-1/images/grey.jpg", gray)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
