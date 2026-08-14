@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("Lab-1/images/color.jpg")
+image = cv2.imread("lab-1/images/color.jpg")
 
 # Blue image
 blue_image = image.copy()
@@ -24,6 +24,10 @@ cv2.imshow("Green Image", green_image)
 cv2.imshow("Red Image", red_image)
 
 
+cv2.imwrite("lab-1/images/Original.jpg", image)
+cv2.imwrite("lab-1/images/Blue_Image.jpg", blue_image)
+cv2.imwrite("lab-1/images/Green_Image.jpg", green_image)
+cv2.imwrite("lab-1/images/Red_Image.jpg", red_image)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

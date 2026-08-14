@@ -16,6 +16,6 @@ gray = R
 
 # Display the grayscale image
 plt.imshow(gray, cmap="gray")
-plt.imsave("lab-1/images/output_red.jpg", gray, cmap="gray")
+plt.imsave("lab-1/images/grey.jpg", gray, cmap="gray")
 plt.axis("off")
 plt.show()
