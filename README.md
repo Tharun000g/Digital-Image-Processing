@@ -93,10 +93,10 @@ Some of the work I've done so far:
 ### Bit Plane Slicing
 
 <p align="center">
-  <img src="images/bit_plane_0.png" width="220">
-  <img src="images/bit_plane_1.png" width="220">
-  <img src="images/bit_plane_2.png" width="220">
-  <img src="images/bit_plane_3.png" width="220">
+  <img src="Lab-2/images/bit_plane_0.png" width="220">
+  <img src="Lab-2/images/bit_plane_1.png" width="220">
+  <img src="Lab-2/images/bit_plane_2.png" width="220">
+  <img src="Lab-2/images/bit_plane_3.png" width="220">
 </p>
 
 
@@ -109,10 +109,10 @@ Some of the work I've done so far:
 
 
 <p align="center">
-  <img src="images/bit_plane_4.png" width="220">
-  <img src="images/bit_plane_5.png" width="220">
-  <img src="images/bit_plane_6.png" width="220">
-  <img src="images/bit_plane_7.png" width="220">
+  <img src="Lab-2/images/bit_plane_4.png" width="220">
+  <img src="Lab-2/images/bit_plane_5.png" width="220">
+  <img src="Lab-2/images/bit_plane_6.png" width="220">
+  <img src="Lab-2/images/bit_plane_7.png" width="220">
 </p>
 
 <p align="center">
@@ -127,7 +127,7 @@ Some of the work I've done so far:
 Enhancing the contrast of an image using histogram equalization.
 
 <p align="center">
-  <img src="images/equalized.png" width="400">
+  <img src="Lab-2/images/equalized.png" width="400">
 </p>
 
 <p align="center">
