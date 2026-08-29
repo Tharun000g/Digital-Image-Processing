@@ -92,16 +92,44 @@ Some of the work I've done so far:
 
 ### Bit Plane Slicing
 
-![Plane-0](Lab-2/images/bit_plane_0.png)
-![Plane-1](Lab-2/images/bit_plane_1.png)
-![Plane-2](Lab-2/images/bit_plane_2.png)
-![Plane-3](Lab-2/images/bit_plane_3.png)
-![Plane-4](Lab-2/images/bit_plane_4.png)
-![Plane-5](Lab-2/images/bit_plane_5.png)
-![Plane-6](Lab-2/images/bit_plane_6.png)
-![Plane-7](Lab-2/images/bit_plane_7.png)
+<p align="center">
+  <img src="images/bit_plane_0.png" width="220">
+  <img src="images/bit_plane_1.png" width="220">
+  <img src="images/bit_plane_2.png" width="220">
+  <img src="images/bit_plane_3.png" width="220">
+</p>
 
-### Histogram Equalisation
 
-![Original](Lab-1/images/grey.jpg)
-![Equalaised](Lab-2/images/equalized.png)
+<p align="center">
+  <b>Bit Plane 0</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Bit Plane 1</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Bit Plane 2</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Bit Plane 3</b>
+</p>
+
+
+<p align="center">
+  <img src="images/bit_plane_4.png" width="220">
+  <img src="images/bit_plane_5.png" width="220">
+  <img src="images/bit_plane_6.png" width="220">
+  <img src="images/bit_plane_7.png" width="220">
+</p>
+
+<p align="center">
+  <b>Bit Plane 4</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Bit Plane 5</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Bit Plane 6</b>&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Bit Plane 7</b>
+</p>
+
+2. Histogram Equalization
+
+Enhancing the contrast of an image using histogram equalization.
+
+<p align="center">
+  <img src="images/equalized.png" width="400">
+</p>
+
+<p align="center">
+  <b>Equalized Image</b>
+</p>
