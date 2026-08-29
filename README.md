@@ -103,5 +103,5 @@ Some of the work I've done so far:
 
 ### Histogram Equalisation
 
-![Black and White](Lab-2/images/equalised.png)
-
+![Original](Lab-1/images/grey.jpg)
+![Equalaised](Lab-2/images/equalized.png)
