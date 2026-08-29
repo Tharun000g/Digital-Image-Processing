@@ -39,9 +39,21 @@ Digital-Image-Processing/
 │       ├── output_blue.jpg
 │       └── black_and_white.jpg
 │
-├── lab-2/
-│   ├── ...
-│   └── README.md
+── Lab-2/
+
+│   ├── bit_plane_slicing.py
+│   ├── histogram_equalisation.py
+│   ├── README.md
+│   └── images/
+│       ├── equalized.png
+│       ├── bit_plane_0.png
+│       ├── bit_plane_1.png
+│       ├── bit_plane_2.png
+│       ├── bit_plane_3.png
+│       ├── bit_plane_4.png
+│       ├── bit_plane_5.png
+│       ├── bit_plane_6.png
+│       └── bit_plane_7.png
 │
 ├── lab-3/
 │   ├── ...
@@ -49,10 +61,10 @@ Digital-Image-Processing/
 │
 └── ...
 ```
+
 ## 🖼️ Examples
 
 Some of the work I've done so far:
-
 
 ### Original Image
 
@@ -77,3 +89,19 @@ Some of the work I've done so far:
 ### Grey
 
 ![Black and White](Lab-1/images/grey.jpg)
+
+### Bit Plane Slicing
+
+![Plane-0](Lab-2/images/bit_plane_0.png)
+![Plane-1](Lab-2/images/bit_plane_1.png)
+![Plane-2](Lab-2/images/bit_plane_2.png)
+![Plane-3](Lab-2/images/bit_plane_3.png)
+![Plane-4](Lab-2/images/bit_plane_4.png)
+![Plane-5](Lab-2/images/bit_plane_5.png)
+![Plane-6](Lab-2/images/bit_plane_6.png)
+![Plane-7](Lab-2/images/bit_plane_7.png)
+
+### Histogram Equalisation
+
+![Black and White](Lab-2/images/equalised.png)
+

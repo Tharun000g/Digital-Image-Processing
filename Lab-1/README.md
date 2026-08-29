@@ -1,7 +1,6 @@
 ## Digital Image Processing — Lab 1
 
-Basic image processing experiments using Python, OpenCV, NumPy, and Matplotlib.
-
+Basic image processing experiments using **Python, OpenCV, NumPy, and Matplotlib**.
 
 ## 📁 Folder Structure
 
@@ -14,13 +13,14 @@ lab-1/
 ├── README.md
 └── images/
     ├── color.jpg
+    ├── grey.jpg
     ├── output_red.jpg
     ├── output_green.jpg
     ├── output_blue.jpg
+    ├── Green_Image.jpg
     └── black_and_white.jpg
+
 ```
-
-
 **📂 Experiments**
 
 **1. RGB to Grey**
@@ -28,9 +28,16 @@ lab-1/
 Extracting individual RGB channels from an image using NumPy and then changing it to grey scale
 
 **Input**
+a
+<p align="center">
+  <img src="images/color.jpg" width="350">
+  <img src="images/grey.jpg" width="350">
+</p>
+<p align="center">
+  <b>Original</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Grayscale</b>
+</p>
 
-![Original Image](images/color.jpg)
-![Original Image](images/grey.jpg)
 
 
 
@@ -70,6 +77,8 @@ Grayscale → Thresholding → Binary Image
 </p>
 
 <p align="center">
-  <b>Original</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Original</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>Black & White</b>
 </p>
+
+

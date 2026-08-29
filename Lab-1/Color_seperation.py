@@ -17,7 +17,7 @@ red_image = image.copy()
 red_image[:, :, 0] = 0  
 red_image[:, :, 1] = 0  
 
-#Display all images
+# Display all images
 cv2.imshow("Original", image)
 cv2.imshow("Blue Image", blue_image)
 cv2.imshow("Green Image", green_image)
