@@ -1,5 +1,9 @@
 # Digital Image Processing
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE-APACHE)
+[![License: BSD 3--Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE-BSD)
+
 A collection of my Digital Image Processing laboratory work, experiments, practice programs.
 
 This repository documents my learning journey from basic image manipulation to more advanced image processing techniques.
@@ -25,6 +29,9 @@ Each laboratory session is organized into its own directory with:
 Digital-Image-Processing/
 │
 ├── LICENSE
+├── LICENSE-MIT
+├── LICENSE-APACHE
+├── LICENSE-BSD
 ├── README.md
 │
 ├── task-1/
@@ -236,4 +243,10 @@ Decomposing the image using 2D Haar Wavelet Transform into approximation (LL), h
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is multi-licensed under your choice of any of the following licenses:
+
+- **[MIT License](LICENSE-MIT)**
+- **[Apache License 2.0](LICENSE-APACHE)**
+- **[BSD 3-Clause License](LICENSE-BSD)**
+
+Copyright (c) 2026 Tharun Geddam. You may select and use this repository under the terms of any of these licenses at your option.
