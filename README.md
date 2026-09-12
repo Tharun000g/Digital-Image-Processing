@@ -24,6 +24,7 @@ Each laboratory session is organized into its own directory with:
 ```text
 Digital-Image-Processing/
 │
+├── LICENSE
 ├── README.md
 │
 ├── task-1/
@@ -230,3 +231,9 @@ Decomposing the image using 2D Haar Wavelet Transform into approximation (LL), h
 <p align="center">
   <b>2D Wavelet Decomposition (LL, LH, HL, HH)</b>
 </p>
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
